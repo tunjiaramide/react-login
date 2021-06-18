@@ -11,7 +11,8 @@ function App() {
 
   const usersDatabase =
     [{ name: "Adetunji Aramide", email: "tunji@gmail.com", password: "12345"},
-    { name: "Glory Aramide", email: "glory@gmail.com", password: "12345"}]
+    { name: "Glory Aramide", email: "glory@gmail.com", password: "12345"},
+    { name: "Timilehin Aramide", email: "timi@gmail.com", password: "12345"},]
    
 
   const [authUser, getAuthUser ] = useState({ name:"", email: "", password: "" });
